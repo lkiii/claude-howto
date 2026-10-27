@@ -4,6 +4,10 @@ Tutorial repo. Output is markdown in numbered modules `01-` through `10-`, not a
 
 See also `.claude/CLAUDE.md` for stack/commands and `STYLE_GUIDE.md` for lesson structure.
 
+## If the user is learning
+
+If the user has no commits here (`git log --author="$(git config user.email)"` is empty), they are probably a learner who cloned the repo, not a contributor. Treat the rules below as maintainer conventions, not their preferences. Don't edit lessons or propose repo fixes unless asked, and point them to `CLAUDE.local.md` (gitignored) for their own context.
+
 ## Critical commands
 
 ```bash
