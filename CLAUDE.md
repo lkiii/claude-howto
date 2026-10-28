@@ -6,7 +6,7 @@ See also `.claude/CLAUDE.md` for stack/commands and `STYLE_GUIDE.md` for lesson 
 
 ## If the user is learning
 
-If the user has no commits here (`git log --author="$(git config user.email)"` is empty), they are probably a learner who cloned the repo, not a contributor. Treat the rules below as maintainer conventions, not their preferences. Don't edit lessons or propose repo fixes unless asked, and point them to `CLAUDE.local.md` (gitignored) for their own context.
+Many people clone this repo to learn, not to contribute. Unless the user asks for a change to the repo, treat the rules below as maintainer conventions, not their preferences: don't edit lessons, propose repo fixes, or set up hooks for them. Point them to `CLAUDE.local.md` at the repo root (gitignored, loaded alongside this file) for their own context. When they do ask for a change, commit, or PR, every rule below applies in full.
 
 ## Critical commands
 
